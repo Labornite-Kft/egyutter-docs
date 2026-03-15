@@ -1,6 +1,6 @@
 ---
 title: Erőforrás könyvtár
-description: Ez a cikk hamarosan elkészül.
+description: Hogyan használd az erőforrás könyvtárat fájlok, linkek és anyagok rendezett megosztásához a közösségben.
 ---
 
 ## Mi ez?

@@ -1,6 +1,6 @@
 ---
 title: Ütemezett bejegyzések
-description: Ez a cikk hamarosan elkészül.
+description: Hogyan ütemezz bejegyzéseket előre – tartalom automatikus közzétételének beállítása megadott időpontra.
 ---
 
 ## Mi ez?

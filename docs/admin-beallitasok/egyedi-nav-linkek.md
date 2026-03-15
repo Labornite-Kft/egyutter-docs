@@ -21,6 +21,8 @@ Az egyedi navigációs linkekkel a közösség sidebar-jához saját hivatkozás
 6. A linkeket húzd át a kívánt sorrendbe.
 7. Kattints a **Mentés** gombra.
 
+![Egyedi navigációs linkek](./screenshots/egyedi-nav-linkek.png)
+
 ## Tippek
 
 - Legfeljebb 5-6 egyedi linket tarts a sidebar-ban; a túl sok link áttekinthetetlenné teszi a navigációt.

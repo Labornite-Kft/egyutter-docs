@@ -25,6 +25,8 @@ Ez a megközelítés hasznos, ha:
 7. Mentsd el a változtatásokat a **Mentés** gombbal.
 8. Teszteld egy teszttag fiókkal, hogy a feloldás a beállított ütemterv szerint működik-e.
 
+![Drip tartalom ütemezés](./screenshots/drip-tartalom.png)
+
 ## Tippek
 
 - A drip beállítás leckénként és fejezetenként is megadható – nem kell az egész kurzusra egységes ütemet alkalmazni.

@@ -21,3 +21,4 @@ yarn-error.log*
 
 # Playwright auth state (contains session tokens)
 screenshots/fixtures/auth.json
+.vercel

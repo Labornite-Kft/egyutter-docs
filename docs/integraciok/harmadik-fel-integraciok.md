@@ -50,6 +50,8 @@ Ezek az integrációk jellemzően webhookon vagy az egyutter API-ján keresztül
    - Tag lemondása → leiratkozás vagy tag frissítése Mailchimpben
 4. Teszteld egy teszt-taggal, hogy az e-mail cím megjelenik-e a Mailchimp listán.
 
+![Harmadik fél integrációk – Zapier, Make](./screenshots/harmadik-fel-integraciok.png)
+
 ## Tippek
 
 - Ha az egyutter és a külső eszköz között kétirányú szinkronizálást szeretnél, ügyelj a végtelen ciklus elkerülésére (pl. ne triggerelj visszaírásnál ismét).

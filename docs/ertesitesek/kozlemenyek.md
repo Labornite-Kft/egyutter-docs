@@ -19,6 +19,8 @@ A közlemény (Announcement) egy adminisztrátori eszköz, amellyel egyszerre ü
 5. Jelöld be, hogy **e-mailben is** ki szeretnéd-e küldeni a közleményt.
 6. Kattints az **„Elküldés"** gombra – vagy az **„Ütemezés"** gombra, ha egy adott időpontban szeretnéd kiküldeni.
 
+![Közlemények küldése](./screenshots/kozlemenyek.png)
+
 ## Tippek
 
 - Küldés előtt mindig ellenőrizd a célközönség méretét – a tagszám az oldalon látható, mielőtt véglegesíted.

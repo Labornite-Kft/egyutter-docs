@@ -1,6 +1,6 @@
 ---
 title: Tér hozzáférés-kezelés
-description: Ez a cikk hamarosan elkészül.
+description: Hogyan szabályozd, hogy ki férhet hozzá az egyes terekhez – nyilvános, zárt és fizetős hozzáférési módok beállítása.
 ---
 
 ## Mi ez?

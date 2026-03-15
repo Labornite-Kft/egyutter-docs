@@ -23,6 +23,8 @@ Az egyutter több automatikus e-mailt küld a tagoknak: meghívót, regisztráci
 7. Kattints az **Előnézet** gombra, hogy megnézd, hogyan fog kinézni a tényleges e-mail.
 8. Ha elégedett vagy, kattints a **Mentés** gombra.
 
+![E-mail sablonok szerkesztése](./screenshots/email-sablonok.png)
+
 ## Tippek
 
 - A tárgysor legyen tömör – 40-60 karakter az ideális, hogy mobilon is teljes egészében látható legyen.

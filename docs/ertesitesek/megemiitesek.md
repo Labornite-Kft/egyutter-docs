@@ -22,6 +22,8 @@ A @mention funkcióval bármelyik tag nevét beírhatod egy posztba vagy komment
 - Minden `@`-jellel megemlített tag értesítést kap in-app és – ha nincs kikapcsolva – e-mailben is.
 - Ha valaki letiltotta az e-mail értesítéseket, az in-app értesítés akkor is megjelenik – a @mention értesítés nem tiltható le teljesen.
 
+![Megemlítések és @mention értesítések](./screenshots/megemiitesek.png)
+
 ## Tippek
 
 - Egyszerre több tagot is megemlíthetsz egyetlen posztban vagy kommentben.

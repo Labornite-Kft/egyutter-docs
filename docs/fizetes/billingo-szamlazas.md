@@ -24,6 +24,8 @@ Ez különösen fontos magyar vevőknél, ahol a számlakiállítás törvényi 
 9. Mentsd el a beállításokat.
 10. Tesztelj egy valós vagy Stripe teszt-fizetéssel – a kiállított számlát a Billingo felületen ellenőrizheted.
 
+![Billingo számlázás beállítása](./screenshots/billingo-szamlazas.png)
+
 ## Tippek
 
 - A vevő neve és e-mail-címe automatikusan átkerül az egyutterből Billingóba – a tagnak nem kell külön adatot megadnia, ha a profilján szerepel a neve.

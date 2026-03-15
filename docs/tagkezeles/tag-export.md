@@ -16,6 +16,8 @@ A tag export funkcióval egy kattintással letöltheted a közösséged összes 
 4. Erősítsd meg a letöltést a megjelenő párbeszédablakban.
 5. A CSV fájl automatikusan letöltődik a böngésződbe.
 
+![Tag export és adatletöltés](./screenshots/tag-export.png)
+
 ## Tippek
 
 - A CSV-ben minden mező pontosvesszővel van elválasztva – importálás előtt ellenőrizd, hogy a célrendszered ezt az elválasztót várja-e.

@@ -27,6 +27,8 @@ Az előfizetési csomagok az árképzési terveid – meghatározod, mennyiért 
    - **Egyszeri** – egyszeri vásárlás, örökre szóló hozzáféréssel
 5. Kattints a **Mentés** gombra.
 
+![Előfizetési csomagok kezelése](./screenshots/elofizetesi-csomagok.png)
+
 ## Tippek
 
 - Éves csomaghoz kedvezmény állítható be – mutasd meg a tagoknak, mennyit spórolnak az éves előfizetéssel a havihoz képest.

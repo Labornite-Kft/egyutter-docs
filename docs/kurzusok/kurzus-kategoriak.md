@@ -31,6 +31,8 @@ Például: „Kezdőknek", „Haladóknak", „Marketing", „Technikai", „Ing
 - A kategóriák automatikusan megjelennek szűrőként a kurzuskatalógus oldalon, ha legalább egy kurzus van hozzájuk rendelve.
 - A szűrők sorrendjét a **Kategóriák kezelése** oldalon drag-and-drop módszerrel változtathatod meg.
 
+![Kurzus kategóriák kezelése](./screenshots/kurzus-kategoriak.png)
+
 ## Tippek
 
 - Kevesebb kategória jobb – 5–8 kategória a legtöbb közösségnél elegendő, több csak összezavar.

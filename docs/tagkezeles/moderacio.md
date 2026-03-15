@@ -38,6 +38,8 @@ A kitiltott tag nem tud belépni a közösségbe. **Visszavonás:** Admin → Ta
 - Tagok bejelenthetnek tartalmakat az Admin felületen.
 - **Admin → Moderáció → Bejelentések** – itt láthatod az összes függőben lévő bejelentést, és dönthetsz a tartalom megtartásáról vagy törléséről.
 
+![Moderáció és tartalom kezelés](./screenshots/moderacio.png)
+
 ## Tippek
 
 - A kitiltás visszavonható az **Admin → Tagok → Kitiltottak** listán – a kitiltott tagok adatai megmaradnak.

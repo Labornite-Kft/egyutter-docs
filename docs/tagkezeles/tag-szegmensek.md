@@ -22,6 +22,8 @@ Szűrhetsz például:
 4. A lista azonnal frissül a feltételeknek megfelelő tagokra.
 5. Az így szűrt listát exportálhatod CSV-be, vagy közlemény küldésekor célközönségként kiválaszthatod.
 
+![Tag szegmensek kezelése](./screenshots/tag-szegmensek.png)
+
 ## Tippek
 
 - Több szűrőfeltételt is kombinálhatsz egyszerre – pl. „Moderátor + az elmúlt 90 napban csatlakozott".

@@ -21,6 +21,8 @@ A fizetős kurzus funkció lehetővé teszi, hogy egy kurzushoz paywallt rendelj
 7. Mentsd el a változtatásokat a **Mentés** gombbal.
 8. Ellenőrizd a kurzus nyilvános oldalát – a nem jogosult tagoknak a paywall-üzenetnek kell megjelennie.
 
+![Fizetős kurzus beállítása](./screenshots/fizetos-kurzus.png)
+
 ## Tippek
 
 - Egy kurzushoz több paywallet is hozzárendelhetsz – pl. ha több különböző csomag is tartalmazza.

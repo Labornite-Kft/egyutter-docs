@@ -23,6 +23,8 @@ A paywall egy hozzáférési korlát, amellyel meghatározhatod, hogy egyes tart
 5. Opcionálisan testreszabd a **megjelenő üzenetet** – ezt látják a nem előfizetők.
 6. Kattints a **Mentés** gombra.
 
+![Paywall beállítása](./screenshots/paywall.png)
+
 ## Tippek
 
 - Egy tartalomhoz **több csomag is hozzárendelhető** – pl. ha havi és éves csomagod is van, mindkettő hozzáférést adhat ugyanahhoz a térhez.

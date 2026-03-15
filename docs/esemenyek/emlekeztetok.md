@@ -1,6 +1,6 @@
 ---
 title: Emlékeztetők beállítása
-description: Ez a cikk hamarosan elkészül.
+description: Hogyan állíts be automatikus emlékeztetőket eseményekhez – e-mail és in-app értesítések időzítése.
 ---
 
 ## Mi ez?

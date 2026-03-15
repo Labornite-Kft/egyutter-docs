@@ -1,6 +1,6 @@
 ---
 title: Keresés
-description: Ez a cikk hamarosan elkészül.
+description: Hogyan keress tartalmak, tagok és bejegyzések között az egyutter közösségi felületén.
 ---
 
 ## Mi ez?

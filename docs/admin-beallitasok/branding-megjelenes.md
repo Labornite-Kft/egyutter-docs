@@ -16,6 +16,8 @@ A branding beállításokkal a közösséged vizuális identitását alakíthato
 5. **Egyedi CSS** (opcionális): az erre szánt szövegmezőbe illeszthetsz be egyedi stílusokat – pl. betűtípus-csere, fejléc háttérszín módosítása.
 6. Kattints a **Mentés** gombra, majd nyisd meg a közösség nyilvános oldalát egy új fülön az eredmény ellenőrzéséhez.
 
+![Branding és megjelenés beállítása](./screenshots/branding-megjelenes.png)
+
 ## Tippek
 
 - Az egyedi CSS-ben csak felülírásokat írj – az egyutter alap stílusait ne töröld, csak felülbíráld.

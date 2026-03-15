@@ -32,6 +32,8 @@ Az in-app értesítések a platform jobb felső sarkában lévő **harang ikonon
 2. Válaszd a **Beállítások → Értesítések** menüpontot.
 3. Kapcsold ki vagy be az egyes értesítéstípusokat.
 
+![In-app értesítések](./screenshots/in-app-ertesitesek.png)
+
 ## Tippek
 
 - Az in-app értesítések nem törölhetők – az olvasottnak jelölés után eltűnnek a számlálóból, de az értesítési előzményekben továbbra is megmaradnak.

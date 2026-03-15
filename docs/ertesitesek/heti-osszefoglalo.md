@@ -25,6 +25,8 @@ A heti összefoglaló egy automatikusan generált e-mail, amelyet a platform min
 2. Válaszd a **Beállítások → E-mail értesítések** menüpontot.
 3. Kapcsold ki a **„Heti összefoglaló"** opciót.
 
+![Heti összefoglaló email beállítás](./screenshots/heti-osszefoglalo.png)
+
 ## Tippek
 
 - A heti összefoglaló csak akkor tartalmaz tartalmat, ha az adott héten volt aktivitás a közösségben – üres hetek esetén az e-mail nem kerül kiküldésre.

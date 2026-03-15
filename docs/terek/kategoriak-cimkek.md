@@ -1,6 +1,6 @@
 ---
 title: Kategóriák és címkék
-description: Ez a cikk hamarosan elkészül.
+description: Hogyan szervezd bejegyzéseidet kategóriákba és címkékkel – könnyebb navigáció és szűrés a közösségben.
 ---
 
 ## Mi ez?

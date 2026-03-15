@@ -39,6 +39,8 @@ A fizetési riportok áttekintést adnak a közösséged bevételeiről – lát
 2. Látod a lemondott előfizetéseket: ki mondta le, mikor, melyik csomagot.
 3. Ha a tag maga mondott le, az ok (ha megadta) szintén megjelenik itt.
 
+![Fizetési riportok és bevételek](./screenshots/fizetesi-riportok.png)
+
 ## Tippek
 
 - A riportok adatai a Stripe-ból szinkronizálódnak – ha eltérést látsz, frissítsd az oldalt vagy várj néhány percet.

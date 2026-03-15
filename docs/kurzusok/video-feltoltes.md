@@ -25,6 +25,8 @@ Leckékhez videókat és letölthető fájlmellékleteket tölthetsz fel. A vide
 3. A feltöltés befejeztével a fájl letölthető linkként jelenik meg a leckében.
 4. Kattints a **Mentés** gombra.
 
+![Videó feltöltése kurzushoz](./screenshots/video-feltoltes.png)
+
 ## Tippek
 
 - A videók automatikusan több felbontásban tárolódnak (360p, 720p, 1080p) – a hallgató eszköze és internetkapcsolata alapján a legjobb minőség tölt be.

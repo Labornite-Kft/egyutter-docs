@@ -19,6 +19,8 @@ Az aktivitási napló rögzíti a közösségben végrehajtott fontosabb adminis
 4. Szűrj az esemény típusára a **Szűrő** legördülővel, vagy keress tag neve alapján a keresőmezőben.
 5. Az egyes sorokra kattintva megnyílik a részletes nézet az esemény teljes adataival.
 
+![Tevékenységi napló](./screenshots/aktivitasi-naplok.png)
+
 ## Tippek
 
 - A napló nem módosítható és nem törölhető – ez szándékos, az audit-integritás megőrzése érdekében.

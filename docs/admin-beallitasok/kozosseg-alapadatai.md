@@ -21,6 +21,8 @@ Az alapadatok tartalmazzák a közösség legfontosabb azonosító információi
    - **Időzóna** – az összes esemény és ütemezett értesítés ebben az időzónában jelenik meg
 4. Kattints a **Mentés** gombra.
 
+![Közösség alapadatai](./screenshots/kozosseg-alapadatai.png)
+
 ## Tippek
 
 - A közösség neve után ne tegyél hosszú alcímet – a rövid, egyértelmű név jobban megjegyezhető.

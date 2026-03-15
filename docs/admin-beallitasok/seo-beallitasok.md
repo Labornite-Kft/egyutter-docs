@@ -19,6 +19,8 @@ A SEO beállítások határozzák meg, hogyan jelenik meg a közösséged a Goog
 5. Kattints a **Mentés** gombra.
 6. Ellenőrizd az eredményt az [opengraph.xyz](https://www.opengraph.xyz) oldalon: illeszd be a közösséged URL-jét, és nézd meg az előnézetet.
 
+![SEO beállítások](./screenshots/seo-beallitasok.png)
+
 ## Tippek
 
 - A meta leírásban szerepeljenek a közösség fő témái és a célközönség – ez segíti a keresők minősítését.
