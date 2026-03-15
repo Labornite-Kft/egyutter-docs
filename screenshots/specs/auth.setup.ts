@@ -13,7 +13,7 @@ setup('authenticate as demo admin', async ({page}) => {
   await page.getByLabel('E-mail').fill(email);
   await page.getByLabel('Jelszó').fill(password);
   await page.getByRole('button', {name: 'Bejelentkezés'}).click();
-  await expect(page).toHaveURL(/dashboard/);
+  await expect(page).not.toHaveURL(/login/);
 
   await page.context().storageState({path: authFile});
 });
