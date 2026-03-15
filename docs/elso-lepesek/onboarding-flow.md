@@ -1,6 +1,7 @@
 ---
 title: Onboarding flow testreszabása
 description: Ez a cikk hamarosan elkészül.
+sidebar_position: 5
 ---
 
 ## Hamarosan...
