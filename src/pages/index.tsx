@@ -1,42 +1,29 @@
-import type {ReactNode} from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import React from 'react';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
 
-import styles from './index.module.css';
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
-
-export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
+export default function Home(): React.JSX.Element {
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
+      title="Egyutter Tudásbázis"
+      description="Magyar nyelvű útmutatók közösségi adminoknak"
+    >
       <main>
+        <div
+          style={{
+            textAlign: 'center',
+            padding: '4rem 1rem 2rem',
+            background: 'linear-gradient(135deg, var(--ifm-color-primary) 0%, #818cf8 100%)',
+            color: 'white',
+          }}
+        >
+          <h1 style={{fontSize: '2.5rem', marginBottom: '0.5rem'}}>
+            Miben segíthetünk?
+          </h1>
+          <p style={{fontSize: '1.125rem', opacity: 0.9, marginBottom: 0}}>
+            Magyar nyelvű útmutatók az egyutter platform minden funkciójához
+          </p>
+        </div>
         <HomepageFeatures />
       </main>
     </Layout>
