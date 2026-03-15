@@ -33,7 +33,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           routeBasePath: '/',
-          editUrl: 'https://github.com/egyutter/egyutter-docs/tree/main/',
+          editUrl: undefined,
         },
         blog: false,
         theme: {
