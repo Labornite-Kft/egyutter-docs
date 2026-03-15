@@ -15,6 +15,17 @@ const config: Config = {
     defaultLocale: 'hu',
     locales: ['hu'],
   },
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['hu', 'en'],
+        docsRouteBasePath: '/',
+        indexBlog: false,
+      },
+    ],
+  ],
   presets: [
     [
       'classic',
