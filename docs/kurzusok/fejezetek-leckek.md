@@ -34,6 +34,8 @@ A kurzusok fejezetekre (pl. „1. modul: Alapok") és leckékre (pl. „Mi az a 
 
 - Fejezetek és leckék sorrendje **drag-and-drop-pal** módosítható – fogd meg a bal oldali fogópontot és húzd a kívánt helyre.
 
+
+![Kurzus fejezetek és leckék szerkesztése](screenshots/kurzus-fejezetek.png)
 ## Tippek
 
 - Egy fejezetben korlátlan számú lecke helyezhető el.

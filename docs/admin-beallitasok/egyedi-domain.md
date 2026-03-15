@@ -27,6 +27,8 @@ Az egyedi domain beállításával a közösséged elérhető lesz saját domain
 7. Várj **5–30 percet** a DNS propagációhoz.
 8. Térj vissza az egyutter admin felületre, és kattints az **„Ellenőrzés"** gombra.
 
+
+![Egyedi domain beállítása](screenshots/egyedi-domain.png)
 ## Tippek
 
 - A HTTPS tanúsítvány automatikusan generálódik az ellenőrzés után – nem szükséges manuálisan SSL-t beállítani.

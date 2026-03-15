@@ -30,6 +30,8 @@ A bejegyzések a terek fő tartalmai – szöveges posztok, amelyekhez tagok hoz
 - Bejegyzésen kattints a **···** menüre (jobb felső sarok) → **Szerkesztés** vagy **Törlés.**
 - Piszkozatok megtekintése: **„Összes bejegyzés"** nézet → **„Piszkozatok"** szűrő.
 
+
+![Bejegyzések a közösségi térben](screenshots/ter-bejegyzesek.png)
 ## Tippek
 
 - Piszkozatként mentett bejegyzések nem láthatók a tagok számára – nyugodtan dolgozhatsz rajtuk több menetben.

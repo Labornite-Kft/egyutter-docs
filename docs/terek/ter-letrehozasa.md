@@ -25,6 +25,8 @@ A terek (Spaces) a közösségen belüli tematikus területek – például „B
 5. Opcionálisan rendelj hozzá **kategóriát** a könnyebb navigáció érdekében.
 6. Kattints a **Létrehozás** gombra.
 
+
+![Terek listája az admin felületen](screenshots/ter-lista.png)
 ## Tippek
 
 - A terek sorrendje drag-and-drop-pal módosítható az **Admin → Terek** listában – így a legfontosabb terek kerülhetnek előre a navigációban.

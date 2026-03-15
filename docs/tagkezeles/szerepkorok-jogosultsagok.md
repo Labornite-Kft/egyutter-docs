@@ -32,6 +32,8 @@ Az egyutter három alapvető szerepkört támogat: Admin (teljes hozzáférés),
 5. Válaszd ki az új szerepkört (Admin / Moderátor / Tag).
 6. Kattints a **Mentés** gombra.
 
+
+![Tagkezelés az admin felületen](screenshots/admin-tagok.png)
 ## Tippek
 
 - Egy közösségnek több adminisztrátora is lehet – érdemes legalább egy megbízható társt adminnak megjelölni.

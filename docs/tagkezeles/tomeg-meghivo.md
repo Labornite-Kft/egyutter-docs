@@ -32,6 +32,8 @@ info@pelda.hu,
 4. Ellenőrizd az **előnézetet** – a rendszer megjelöli az érvényes és hibás sorokat (pl. érvénytelen e-mail formátum).
 5. Kattints a **„Meghívók küldése"** gombra.
 
+
+![Tömeges meghívás ablak](screenshots/tomeg-meghivo.png)
 ## Tippek
 
 - Egyszerre maximum **500 sor** dolgozható fel – nagyobb listát darabolj fel több feltöltésre.

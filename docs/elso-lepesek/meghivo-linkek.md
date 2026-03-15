@@ -18,6 +18,8 @@ A meghívó link egyedi URL, amelyet bárkivel megoszthatsz – közösségi mé
 4. Kattints a **Létrehozás** gombra.
 5. Másold ki a megjelenő linket és oszd meg bárhol.
 
+
+![Meghívó linkek kezelése](screenshots/meghivo-linkek.png)
 ## Tippek
 
 - Ha nem adsz meg lejáratot, a link addig aktív, amíg manuálisan le nem tiltod az **Admin → Meghívó linkek** oldalon.

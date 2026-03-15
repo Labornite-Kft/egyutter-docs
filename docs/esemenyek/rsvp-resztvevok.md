@@ -16,6 +16,8 @@ Minden eseménynél nyomon követheted, kik jelezték részvételi szándékukat
 4. Láthatod az összes tagot, aki RSVP-vel jelezte részvételi szándékát – nevükkel, e-mail-jükkel és a jelzés dátumával.
 5. A **„Exportálás"** gombbal CSV-formátumban letöltheted a listát.
 
+
+![Esemény résztvevők listája](screenshots/esemeny-resztvevok.png)
 ## Tippek
 
 - **Maximális létszám** beállítható az esemény szerkesztőben – ha betelt, a tagok nem tudnak RSVP-zni, és várólistán helyezkednek el.

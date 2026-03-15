@@ -26,6 +26,8 @@ Minden tag a saját **Beállítások → Értesítések** oldalán szabályozhat
 - Kap-e heti összefoglalót
 - Kap-e értesítést hozzászólásaira érkező válaszokról és @megemlítésekről
 
+
+![E-mail értesítési beállítások](screenshots/ertesitesek.png)
 ## Tippek
 
 - A tagok csak azokból a terekből kapnak e-mail értesítést, amelyekre feliratkoztak a saját beállításaikban – ez csökkenti az értesítési zajt.

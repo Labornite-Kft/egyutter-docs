@@ -18,6 +18,8 @@ Tagokat e-mail meghívóval vagy meghívó linkkel vonzhatsz be a közösségedb
 
 A meghívott kap egy e-mailt, amelyen keresztül regisztrálhat, és azonnal csatlakozik a közösségedhez.
 
+
+![Tagok meghívása – admin oldal](screenshots/tagok-meghivasa.png)
 ## Tippek
 
 - Egyszerre sok tagot szeretnél meghívni? Használd a [tömeges meghívást](../tagkezeles/tomeg-meghivo) CSV-feltöltéssel.

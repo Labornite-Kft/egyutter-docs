@@ -26,6 +26,8 @@ A kurzusok strukturált tananyagok, amelyek fejezetekbe és leckékbe szervezve 
    - **Fizetős** – előfizetés vagy egyszeri vásárlás szükséges
 7. Kattints a **„Mentés és szerkesztés"** gombra – a kurzus piszkozat státuszba kerül, és elkezdheted a fejezetek hozzáadását.
 
+
+![Kurzusok listája az admin felületen](screenshots/kurzusok-lista.png)
 ## Tippek
 
 - A kurzus piszkozat státuszban nem látható a tagok számára – publikáld, amikor kész a tartalom.

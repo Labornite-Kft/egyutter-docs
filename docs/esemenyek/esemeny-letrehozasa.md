@@ -21,6 +21,8 @@ Az eseményekkel webinárokat, workshopokat, online meetupokat és személyes ta
 7. Opcionálisan állíts be **maximális létszámot.**
 8. Kattints a **Közzététel** gombra.
 
+
+![Események listája az admin felületen](screenshots/esemenyek-lista.png)
 ## Tippek
 
 - A tagok automatikusan **emlékeztetőt kapnak 24 órával** az esemény előtt e-mailben.

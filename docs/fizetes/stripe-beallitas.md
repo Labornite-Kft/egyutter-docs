@@ -22,6 +22,8 @@ A Stripe az egyutter elsődleges fizetési szolgáltatója. A Stripe fiókod ös
 4. **Engedélyezd** az egyutter hozzáférését a fiókodhoz.
 5. Visszakerülsz az admin felületre – a Stripe státusz „Összekapcsolva" jelzést mutat.
 
+
+![Stripe beállítások az admin felületen](screenshots/stripe-beallitas.png)
 ## Tippek
 
 - Teszt fizetések előtt kapcsold be a **Test mode**-ot a Stripe dashboardján (Developers → Test mode). Teszt módban a valódi kártyaszám helyett a Stripe teszt kártyáit használd (pl. `4242 4242 4242 4242`).

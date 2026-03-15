@@ -34,6 +34,8 @@ A kvízek segítségével ellenőrizheted, hogy a hallgatók elsajátították-e
 1. **Admin → Kurzusok → lecke → Kvíz eredmények.**
 2. Láthatod az összes próbálkozást, elért pontszámokat és helyes válaszokat hallgatónként.
 
+
+![Kvíz kezelése a kurzuson belül](screenshots/kvizek-lista.png)
 ## Tippek
 
 - Az eredmény azonnal megjelenik a hallgató számára a beküldés után – nem kell manuálisan értékelni.

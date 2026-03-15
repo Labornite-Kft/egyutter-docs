@@ -20,6 +20,8 @@ Minden tartalom és tag egy közösséghez tartozik. Mielőtt meghívnád az els
 5. Kattints a **Létrehozás** gombra.
 6. A rendszer átirányít az admin felületre, ahol elkezdheted a közösség testreszabását.
 
+
+![Közösség alapadatai az admin felületen](screenshots/kozosseg-alapadatok.png)
 ## Tippek
 
 - A névből automatikusan generálódik az egyedi URL (pl. `kovacs-anna-akademia.egyutter.hu`) – ez utólag csak ügyfélszolgálaton keresztül változtatható, ezért gondold át jól.

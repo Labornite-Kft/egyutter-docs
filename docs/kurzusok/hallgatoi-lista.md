@@ -19,6 +19,8 @@ A hallgatói listán átfogó képet kaphatsz a kurzusodon tanuló tagokról: l�
    - **Utolsó aktivitás** dátuma
 5. Egy hallgató nevére kattintva megnyílik a **részletes haladásnézet** – láthatod leckénként, hogy teljesítette-e, és ha volt kvíze, azt hány ponttal teljesítette.
 
+
+![Hallgatói lista a kurzusnál](screenshots/hallgatoi-lista.png)
 ## Tippek
 
 - A hallgatói lista **CSV-formátumban exportálható** az „Exportálás" gombbal – hasznos riportokhoz vagy e-mail kampányokhoz.

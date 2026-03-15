@@ -21,6 +21,8 @@ A branding beállításokkal személyre szabhatod a közösséged vizuális megj
 4. **Favicon:** Tölts fel ICO vagy PNG fájlt, 32×32px méretben. Ez jelenik meg a böngészőfüleken.
 5. Kattints a **Mentés** gombra – a változások azonnal érvénybe lépnek.
 
+
+![Branding beállítások oldal](screenshots/branding-beallitas.png)
 ## Tippek
 
 - Az SVG formátumú logó minden méretben éles és pixelmentes marad – ezt ajánljuk PNG helyett, ha lehetséges.
