@@ -32,4 +32,4 @@ Az ütemezés funkcióval a bejegyzéseket előre megírhatod, és egy jövőbel
 
 - [Bejegyzések – Feed](./bejegyzesek-feed)
 - [Kategóriák és címkék](./kategoriak-cimkek)
-- [Értesítések beállítása](/tagok/ertesitesek)
+- [Értesítések beállítása](../ertesitesek)

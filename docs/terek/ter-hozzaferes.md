@@ -30,4 +30,4 @@ A tér hozzáférési szintje határozza meg, hogy a közösség tagjai – és 
 
 - [Tér létrehozása](./ter-letrehozasa)
 - [Bejegyzések – Feed](./bejegyzesek-feed)
-- [Tagok kezelése](/tagok/tagok-kezelese)
+- [Tagok kezelése](../tagkezeles)

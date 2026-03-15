@@ -61,4 +61,4 @@ Ezek az integrációk jellemzően webhookon vagy az egyutter API-ján keresztül
 
 - [API kulcsok](./api-kulcsok)
 - [Webhook integráció](./webhook-integracio)
-- [Integrációk áttekintő](./index)
+- [Integrációk áttekintő](../integraciok)

@@ -42,4 +42,4 @@ Például: „Kezdőknek", „Haladóknak", „Marketing", „Technikai", „Ing
 
 - [Kurzus létrehozása](./kurzus-letrehozasa)
 - [Hallgatói lista](./hallgatoi-lista)
-- [Kurzusok áttekintő](./index)
+- [Kurzusok áttekintő](../kurzusok)
