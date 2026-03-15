@@ -1,20 +1,330 @@
+/* ============================================================
+   Egyutter Tudásbázis — Custom Theme
+   Brand: hsl(160 84% 39%) emerald green, Inter font, clean minimal
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ── Brand color scale (converted from hsl(160 84% 39%)) ── */
 :root {
-  --ifm-color-primary: #6366f1;
-  --ifm-color-primary-dark: #4f52e8;
-  --ifm-color-primary-darker: #4346e3;
-  --ifm-color-primary-darkest: #3033c9;
-  --ifm-color-primary-light: #777ae4;
-  --ifm-color-primary-lighter: #8385e7;
-  --ifm-color-primary-lightest: #a8aaee;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary: #10b274;
+  --ifm-color-primary-dark: #0e9e67;
+  --ifm-color-primary-darker: #0d9561;
+  --ifm-color-primary-darkest: #0a7a4f;
+  --ifm-color-primary-light: #12c681;
+  --ifm-color-primary-lighter: #13cf87;
+  --ifm-color-primary-lightest: #26e49a;
+
+  --ifm-code-font-size: 90%;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-font-size-base: 15px;
+  --ifm-line-height-base: 1.7;
+  --ifm-border-radius: 8px;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-shadow: 0 1px 0 0 hsl(0 0% 90%);
+  --ifm-navbar-height: 60px;
+  --ifm-navbar-link-color: hsl(0 0% 20%);
+  --ifm-navbar-link-hover-color: var(--ifm-color-primary);
+
+  /* Sidebar */
+  --ifm-sidebar-width: 272px;
+  --ifm-menu-color: hsl(0 0% 25%);
+  --ifm-menu-color-active: var(--ifm-color-primary);
+  --ifm-menu-link-padding-vertical: 6px;
+  --ifm-menu-link-padding-horizontal: 12px;
+  --ifm-menu-link-sublist-icon-filter: none;
+
+  /* Content */
+  --ifm-heading-color: hsl(0 0% 6%);
+  --ifm-font-color-base: hsl(0 0% 15%);
+  --ifm-link-color: var(--ifm-color-primary);
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: hsl(0 0% 98%);
+  --ifm-global-border-width: 1px;
+  --ifm-color-emphasis-200: hsl(0 0% 91%);
+  --ifm-color-emphasis-300: hsl(0 0% 84%);
+  --ifm-color-emphasis-700: hsl(0 0% 45%);
+
+  /* Code blocks */
+  --ifm-code-background: hsl(0 0% 96%);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.06);
+
+  /* TOC */
+  --ifm-toc-border-color: hsl(0 0% 91%);
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #8385e7;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #26e49a;
+  --ifm-color-primary-dark: #13cf87;
+  --ifm-color-primary-darker: #10c47f;
+  --ifm-color-primary-darkest: #0da068;
+  --ifm-color-primary-light: #39e9a4;
+  --ifm-color-primary-lighter: #4cedad;
+  --ifm-color-primary-lightest: #73f2be;
+
+  --ifm-navbar-background-color: hsl(0 0% 8%);
+  --ifm-navbar-shadow: 0 1px 0 0 hsl(0 0% 14%);
+  --ifm-navbar-link-color: hsl(0 0% 85%);
+  --ifm-background-color: hsl(0 0% 7%);
+  --ifm-background-surface-color: hsl(0 0% 10%);
+  --ifm-heading-color: hsl(0 0% 95%);
+  --ifm-font-color-base: hsl(0 0% 80%);
+  --ifm-color-emphasis-200: hsl(0 0% 18%);
+  --ifm-color-emphasis-300: hsl(0 0% 24%);
+  --ifm-color-emphasis-700: hsl(0 0% 60%);
+  --ifm-code-background: hsl(0 0% 13%);
+  --ifm-toc-border-color: hsl(0 0% 18%);
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.05);
 }
 
+/* ── Base typography ── */
+body {
+  font-family: var(--ifm-font-family-base);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Navbar ── */
+.navbar {
+  padding: 0 1.5rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: none;
+}
+
+.navbar__brand {
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: -0.01em;
+}
+
+.navbar__logo {
+  height: 28px;
+  margin-right: 8px;
+}
+
+.navbar__link {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.navbar__link--active {
+  color: var(--ifm-color-primary);
+}
+
+/* ── Sidebar ── */
+.menu {
+  padding: 1rem 0.75rem !important;
+  font-size: 0.875rem;
+}
+
+.menu__list-item-collapsible {
+  border-radius: 6px;
+}
+
+.menu__link {
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--ifm-menu-color);
+  transition: background 0.15s, color 0.15s;
+}
+
+.menu__link:hover {
+  background: hsl(160 84% 39% / 0.07);
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.menu__link--active {
+  background: hsl(160 84% 39% / 0.1) !important;
+  color: var(--ifm-color-primary) !important;
+  font-weight: 600;
+}
+
+.menu__link--sublist {
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ifm-color-emphasis-700);
+  margin-top: 0.5rem;
+}
+
+.menu__link--sublist:hover {
+  background: transparent;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.menu__link--sublist-caret:after {
+  opacity: 0.5;
+}
+
+/* ── Doc content ── */
+.markdown {
+  --ifm-h1-font-size: 1.875rem;
+  --ifm-h2-font-size: 1.375rem;
+  --ifm-h3-font-size: 1.125rem;
+}
+
+.markdown h1:first-child {
+  font-size: 1.875rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-heading-color);
+}
+
+.markdown h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  color: var(--ifm-heading-color);
+}
+
+.markdown h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-heading-color);
+}
+
+.markdown p {
+  color: var(--ifm-font-color-base);
+  line-height: 1.75;
+}
+
+.markdown img {
+  border-radius: 10px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+  margin: 1.5rem 0;
+}
+
+.markdown ul,
+.markdown ol {
+  padding-left: 1.25rem;
+}
+
+.markdown li {
+  margin-bottom: 0.35rem;
+  line-height: 1.65;
+}
+
+/* ── Breadcrumbs ── */
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: var(--ifm-color-emphasis-700);
+  font-weight: 400;
+}
+
+/* ── TOC ── */
+.table-of-contents__link {
+  font-size: 0.8125rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+}
+
+.table-of-contents__link--active {
+  font-weight: 600;
+}
+
+/* ── Pagination ── */
+.pagination-nav__link {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-border-radius);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px hsl(160 84% 39% / 0.1);
+  text-decoration: none;
+}
+
+.pagination-nav__sublabel {
+  font-size: 0.75rem;
+  color: var(--ifm-color-emphasis-700);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+
+.pagination-nav__label {
+  font-weight: 600;
+  font-size: 0.9375rem;
+}
+
+/* ── Code ── */
+code {
+  background: var(--ifm-code-background);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 4px;
+  padding: 0.15em 0.4em;
+  font-size: 0.875em;
+}
+
+.prism-code {
+  border-radius: var(--ifm-border-radius) !important;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  font-size: 0.8125rem !important;
+}
+
+/* ── Footer ── */
+.footer {
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-background-surface-color);
+  padding: 2.5rem 0;
+}
+
+.footer--dark {
+  background: hsl(0 0% 6%);
+  border-top-color: hsl(0 0% 14%);
+}
+
+.footer__title {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 0.75rem;
+}
+
+.footer__link-item {
+  font-size: 0.875rem;
+  line-height: 1.8;
+}
+
+.footer__copyright {
+  font-size: 0.8125rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-top: 1.5rem;
+}
+
+/* ── Homepage hero ── */
 .hero--primary {
-  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, #818cf8 100%);
+  background: linear-gradient(135deg, hsl(160 84% 36%) 0%, hsl(160 70% 44%) 100%);
+  padding: 4.5rem 1rem 3.5rem;
+}
+
+/* ── Doc page layout tweak ── */
+.docMainContainer_gTbr {
+  max-width: 780px;
+}
+
+/* ── Admonitions ── */
+.alert {
+  border-radius: var(--ifm-border-radius);
+  border-left-width: 4px;
+  font-size: 0.9rem;
 }

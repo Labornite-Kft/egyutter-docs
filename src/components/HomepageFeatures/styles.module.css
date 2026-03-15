@@ -1,11 +1,12 @@
 .features {
-  padding: 3rem 0;
+  padding: 3rem 0 4rem;
+  background: var(--ifm-background-color);
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 @media (max-width: 996px) {
@@ -23,33 +24,53 @@
 .card {
   display: block;
   padding: 1.5rem;
-  border: 1px solid var(--ifm-color-emphasis-200);
-  border-radius: 12px;
+  border: 1px solid hsl(0 0% 91%);
+  border-radius: 10px;
   text-decoration: none;
   color: inherit;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  background: #ffffff;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+}
+
+[data-theme='dark'] .card {
+  background: hsl(0 0% 10%);
+  border-color: hsl(0 0% 18%);
 }
 
 .card:hover {
-  border-color: var(--ifm-color-primary);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border-color: hsl(160 84% 39% / 0.5);
+  box-shadow: 0 4px 20px rgba(16, 178, 116, 0.1);
+  transform: translateY(-1px);
   text-decoration: none;
   color: inherit;
 }
 
 .emoji {
-  font-size: 2rem;
-  margin-bottom: 0.75rem;
+  font-size: 1.75rem;
+  margin-bottom: 0.875rem;
+  display: block;
+  line-height: 1;
 }
 
 .card h3 {
-  font-size: 1rem;
+  font-size: 0.9375rem;
   font-weight: 700;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.375rem;
+  color: hsl(0 0% 6%);
+  letter-spacing: -0.01em;
+}
+
+[data-theme='dark'] .card h3 {
+  color: hsl(0 0% 92%);
 }
 
 .card p {
-  font-size: 0.875rem;
-  color: var(--ifm-color-emphasis-700);
+  font-size: 0.8125rem;
+  color: hsl(0 0% 45%);
   margin: 0;
+  line-height: 1.5;
+}
+
+[data-theme='dark'] .card p {
+  color: hsl(0 0% 55%);
 }

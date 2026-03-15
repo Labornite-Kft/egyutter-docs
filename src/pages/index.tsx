@@ -12,15 +12,15 @@ export default function Home(): React.JSX.Element {
         <div
           style={{
             textAlign: 'center',
-            padding: '4rem 1rem 2rem',
-            background: 'linear-gradient(135deg, var(--ifm-color-primary) 0%, #818cf8 100%)',
+            padding: '4.5rem 1rem 3.5rem',
+            background: 'linear-gradient(135deg, hsl(160, 84%, 36%) 0%, hsl(160, 70%, 44%) 100%)',
             color: 'white',
           }}
         >
-          <h1 style={{fontSize: '2.5rem', marginBottom: '0.5rem'}}>
+          <h1 style={{fontSize: '2.25rem', fontWeight: 700, marginBottom: '0.625rem', letterSpacing: '-0.025em', lineHeight: 1.2}}>
             Miben segíthetünk?
           </h1>
-          <p style={{fontSize: '1.125rem', opacity: 0.9, marginBottom: 0}}>
+          <p style={{fontSize: '1.0625rem', opacity: 0.88, marginBottom: 0, maxWidth: 480, margin: '0 auto'}}>
             Magyar nyelvű útmutatók az egyutter platform minden funkciójához
           </p>
         </div>
