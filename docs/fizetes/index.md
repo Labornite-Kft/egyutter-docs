@@ -32,4 +32,4 @@ A fizetési rendszer főbb elemei:
 ## Kapcsolódó cikkek
 
 - [Fizetős kurzus beállítása](../kurzusok/fizetos-kurzus)
-- [Integrációk áttekintő](../integraciok/index)
+- [Integrációk áttekintő](/integraciok)

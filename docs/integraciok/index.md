@@ -30,5 +30,5 @@ Az integrációk három fő típusa:
 
 ## Kapcsolódó cikkek
 
-- [Fizetés & számlázás áttekintő](../fizetes/index)
-- [Admin beállítások](../admin-beallitasok/index)
+- [Fizetés & számlázás áttekintő](/fizetes)
+- [Admin beállítások](/admin-beallitasok)
