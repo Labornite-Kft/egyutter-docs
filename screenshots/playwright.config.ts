@@ -1,4 +1,5 @@
 import {defineConfig, devices} from '@playwright/test';
+import path from 'path';
 
 export default defineConfig({
   testDir: './specs',
@@ -25,7 +26,7 @@ export default defineConfig({
       dependencies: ['setup'],
       use: {
         ...devices['Desktop Chrome'],
-        storageState: 'screenshots/fixtures/auth.json',
+        storageState: path.join(__dirname, 'fixtures/auth.json'),
       },
     },
   ],
