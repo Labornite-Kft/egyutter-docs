@@ -5,44 +5,40 @@ const SCREENSHOTS_TEREK = path.join(__dirname, '../../docs/terek/screenshots');
 const SCREENSHOTS_ERTESITESEK = path.join(__dirname, '../../docs/ertesitesek/screenshots');
 const SCREENSHOTS_INTEGRACIOK = path.join(__dirname, '../../docs/integraciok/screenshots');
 
+async function snap(page: any, url: string, file: string) {
+  await page.goto(url);
+  await expect(page).not.toHaveURL(/404/);
+  await page.waitForLoadState('load');
+  await page.waitForTimeout(800);
+  await page.screenshot({path: file, fullPage: false});
+}
+
 test.describe('Terek screenshots', () => {
   test('ter-lista: spaces admin list', async ({page}) => {
-    await page.goto('/admin/spaces');
-    await expect(page).not.toHaveURL(/404/);
-    await page.screenshot({path: `${SCREENSHOTS_TEREK}/ter-lista.png`});
+    await snap(page, '/admin/spaces', `${SCREENSHOTS_TEREK}/ter-lista.png`);
   });
 
   test('ter-bejegyzesek: space feed', async ({page}) => {
-    await page.goto('/spaces');
-    await expect(page).not.toHaveURL(/404/);
-    await page.screenshot({path: `${SCREENSHOTS_TEREK}/ter-bejegyzesek.png`});
+    await snap(page, '/spaces', `${SCREENSHOTS_TEREK}/ter-bejegyzesek.png`);
   });
 });
 
 test.describe('Értesítések screenshots', () => {
   test('ertesitesek: notifications page', async ({page}) => {
-    await page.goto('/notifications');
-    await expect(page).not.toHaveURL(/404/);
-    await page.screenshot({path: `${SCREENSHOTS_ERTESITESEK}/ertesitesek.png`});
+    await snap(page, '/notifications', `${SCREENSHOTS_ERTESITESEK}/ertesitesek.png`);
   });
 
   test('uzenet: messages page', async ({page}) => {
-    await page.goto('/messages');
-    await expect(page).not.toHaveURL(/404/);
-    await page.screenshot({path: `${SCREENSHOTS_ERTESITESEK}/uzenet.png`});
+    await snap(page, '/messages', `${SCREENSHOTS_ERTESITESEK}/uzenet.png`);
   });
 });
 
 test.describe('Integrációk screenshots', () => {
   test('webhookok: webhook settings', async ({page}) => {
-    await page.goto('/admin/settings');
-    await expect(page).not.toHaveURL(/404/);
-    await page.screenshot({path: `${SCREENSHOTS_INTEGRACIOK}/webhookok.png`});
+    await snap(page, '/admin/settings', `${SCREENSHOTS_INTEGRACIOK}/webhookok.png`);
   });
 
   test('api-kulcsok: settings page', async ({page}) => {
-    await page.goto('/settings');
-    await expect(page).not.toHaveURL(/404/);
-    await page.screenshot({path: `${SCREENSHOTS_INTEGRACIOK}/api-kulcsok.png`});
+    await snap(page, '/settings', `${SCREENSHOTS_INTEGRACIOK}/api-kulcsok.png`);
   });
 });

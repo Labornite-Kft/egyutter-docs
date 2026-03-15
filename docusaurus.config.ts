@@ -4,7 +4,7 @@ import type {Config} from '@docusaurus/types';
 const config: Config = {
   title: 'Egyutter Tudásbázis',
   tagline: 'Magyar nyelvű útmutatók közösségi adminoknak',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.svg',
   url: 'https://tudasbazis.egyutter.hu',
   baseUrl: '/',
   organizationName: 'egyutter',
