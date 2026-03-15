@@ -2,7 +2,7 @@ name: Regenerate screenshots
 
 on:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '0 3 * * 1'
   workflow_dispatch:
 
 jobs:
