@@ -29,5 +29,5 @@ Az összes tagkezelési funkció az **Admin → Tagok** menüpontban érhető el
 
 ## Kapcsolódó cikkek
 
-- [Értesítések](../ertesitesek/) – tagok értesítése eseményekről és hírekről
-- [Admin beállítások](../admin-beallitasok/) – általános közösségi beállítások
+- [Értesítések](/ertesitesek) – tagok értesítése eseményekről és hírekről
+- [Admin beállítások](/admin-beallitasok) – általános közösségi beállítások

@@ -30,5 +30,5 @@ Az egyutter platform többféle csatornán keresztül értesíti a tagokat a kö
 
 ## Kapcsolódó cikkek
 
-- [Tagkezelés](../tagkezeles/) – tagok és szerepkörök kezelése
+- [Tagkezelés](/tagkezeles) – tagok és szerepkörök kezelése
 - [Tag szegmensek](../tagkezeles/tag-szegmensek) – célzott értesítések szegmenseknek

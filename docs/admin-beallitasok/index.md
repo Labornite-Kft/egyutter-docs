@@ -28,6 +28,6 @@ Az Admin beállítások szekció tartalmazza az összes olyan konfigurációs le
 
 ## Kapcsolódó cikkek
 
-- [Első lépések](../elso-lepesek/)
-- [Tagkezelés](../tagkezeles/)
-- [Integrációk](../integraciok/)
+- [Első lépések](/elso-lepesek)
+- [Tagkezelés](/tagkezeles)
+- [Integrációk](/integraciok)

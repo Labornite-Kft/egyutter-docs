@@ -25,6 +25,6 @@ Ez a szekció végigvezet az induláshoz szükséges alapfogásokon. Ha most reg
 
 ## Kapcsolódó cikkek
 
-- [Admin beállítások](../admin-beallitasok/)
-- [Terek kezelése](../terek/)
-- [Tagkezelés](../tagkezeles/)
+- [Admin beállítások](/admin-beallitasok)
+- [Terek kezelése](/terek)
+- [Tagkezelés](/tagkezeles)
